@@ -1,10 +1,9 @@
-import {Navbar} from './components'
+import {CartContainer, Navbar} from './components'
 
 function App() {
   return <main>
     <Navbar/>
-    <p>Redux Toolkit</p>
-
+    <CartContainer/>
   </main>;
 }
 export default App;
